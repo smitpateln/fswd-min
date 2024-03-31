@@ -29,7 +29,7 @@ export default function Signup() {
         if (Object.keys(validationErrors).length === 0) {
           // Form submission logic
           console.log('Form submitted successfully ' + JSON.stringify(formData));
-          axios.post('https://fswd-min.vercel.app/appapi', formData)
+          axios.post('https://fswd-min-smit-patels-projects-5541c5e3.vercel.app/appapi', formData)
             .then((res) => {
               console.log("Form data sent successfully");
     
