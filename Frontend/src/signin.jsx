@@ -20,7 +20,7 @@ const navigate = useNavigate();
   const handlesubmit = async (e)=>{
       e.preventDefault();
        console.log(setdata)
-      const res = await fetch("http://localhost:3001/appfind", {
+      const res = await fetch("https://fswd-min.vercel.app/appfind", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",
